@@ -1,0 +1,26 @@
+.intro__text {
+  max-width: 690px;
+  font-family: 'Inter-400';
+  font-size: 16px;
+  line-height: 26.08px;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .intro__text {
+    max-width: 637px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__text {
+    max-width: 288px;
+    line-height: 26px;
+  }
+}

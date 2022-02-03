@@ -1,0 +1,26 @@
+.place__link {
+  font-family: 'Inter-400';
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: normal;
+  color: white;
+  margin-top: 12px;
+  transition: opacity 0.25s linear;
+}
+
+.place__link:hover {
+  opacity: 0.8;
+}
+
+
+@media screen and (max-width: 320px) {
+  .place__link {
+    padding-left: 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__link {
+    padding-left: 16px;
+  }
+}

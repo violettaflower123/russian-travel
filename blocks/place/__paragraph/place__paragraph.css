@@ -1,0 +1,47 @@
+.place__paragraph{
+  display: flex;
+  max-width: 484px;
+  font-family: 'Inter-400';
+  font-size: 18px;
+  line-height: 29.34px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.place__paragraph:first-child {
+  padding-bottom: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    max-width: 456px;
+    line-height: 29px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26.08px;
+    max-width: 352px;
+  }
+
+  .place__paragraph:first-child {
+    padding-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__paragraph {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    padding-left: 16px;
+    padding-right: 16px;
+    line-height: 25.95px;
+  }
+}
