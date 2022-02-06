@@ -40,6 +40,12 @@
   }
 }
 
+@media screen and (max-width: 391px) {
+  .lead__box {
+    max-width: 390px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead__box {
     max-width: 320px;
