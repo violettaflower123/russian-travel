@@ -1,7 +1,7 @@
 .place__paragraph{
   display: flex;
   max-width: 484px;
-  font-family: 'Inter-400';
+  font-family: 'Inter-400', 'Arial', sans-serif;
   font-size: 18px;
   line-height: 29.34px;
   font-weight: normal;

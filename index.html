@@ -10,17 +10,9 @@
   <body>
     <div class="page">
       <header class="header">
-        <img
-          class="header__logo"
-          src="images/__logo.png"
-          alt="Изображение логотипа"
-        />
+        <a href="#" class="header__logo"></a>
         <ul class="header__lang-links">
-          <li>
-            <a href="#" class="header__lang-link header__lang-link_active"
-              >Ru</a
-            >
-          </li>
+          <li><a href="#" class="header__lang-link header__lang-link_active" >Ru</a></li>
           <li><a href="#" class="header__lang-link">En</a></li>
         </ul>
       </header>
@@ -35,13 +27,12 @@
             <img
               class="lead__image"
               src="./images/train.jpg"
-              alt="Изображение маршрута на фоне вина из поезда"
-            />
-            <p class="lead__caption">ВАША ПОЛКА — ВЕРХНЯЯ</p>
+              alt="Изображение маршрута на фоне вина из поезда"/>
+            <p class="lead__caption">ваша полка — верхняя</p>
           </div>
         </section>
 
-        <article class="intro">
+        <section class="intro">
           <h2 class="intro__title">Чего мы&nbsp;там не&nbsp;видели?</h2>
           <p class="intro__text">
             По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
@@ -56,87 +47,63 @@
             вашего отпуска.
           </p>
           <ul class="intro__list">
-            <li>Часовых поясов <span class="normalText">11</span></li>
+            <li>Часовых поясов <span class="intro__span-accent">11</span></li>
             <li>
               Объектов природного наследия ЮНЕСКО
-              <span class="normalText">12</span>
+              <span class="intro__span-accent">12</span>
             </li>
             <li>
               Объектов культурного наследия ЮНЕСКО
-              <span class="normalText">16</span>
+              <span class="intro__span-accent">16</span>
             </li>
             <li>
-              Природных заповедников <span class="normalText">105</span>
+              Природных заповедников <span class="intro__span-accent">105</span>
             </li>
-            <li>Аэропортов <span class="normalText">241</span></li>
+            <li>Аэропортов <span class="intro__span-accent">241</span></li>
           </ul>
-        </article>
-
-        <section class="photo-grid" aria-label="Коллекция фото">
-          <img
-            src="./images/__item1.jpg"
-            class="photo-grid__item"
-            alt="Изображение 1"
-          />
-          <img
-            src="./images/__item2.jpg"
-            class="photo-grid__item"
-            alt="Изображение 2"
-          />
-          <img
-            src="./images/__item3.jpg"
-            class="photo-grid__item"
-            alt="Изображение 3"
-          />
-          <img
-            src="./images/__item4.jpg"
-            class="photo-grid__item"
-            alt="Изображение 4"
-          />
-          <img
-            src="./images/__item5.jpg"
-            class="photo-grid__item"
-            alt="Изображение 5"
-          />
-          <img
-            src="./images/__item6.jpg"
-            class="photo-grid__item"
-            alt="Изображение 6"
-          />
-          <img
-            src="./images/__item7.jpg"
-            class="photo-grid__item"
-            alt="Изображение 7"
-          />
-          <img
-            src="./images/__item8.jpg"
-            class="photo-grid__item"
-            alt="Изображение 8"
-          />
-          <img
-            src="./images/__item9.jpg"
-            class="photo-grid__item"
-            alt="Изображение 9"
-          />
-          <img
-            src="./images/__item10.jpg"
-            class="photo-grid__item"
-            alt="Изображение 10"
-          />
-          <img
-            src="./images/__item11.jpg"
-            class="photo-grid__item"
-            alt="Изображение 11"
-          />
-          <img
-            src="./images/__item12.jpg"
-            class="photo-grid__item"
-            alt="Изображение 12"
-          />
         </section>
 
-        <ul class="places">
-          <li class="place">
+        <section class="photo-grid" aria-label="Коллекция фото">
+          <img class="photo-grid__item"
+            src="./images/__item1.jpg"
+            alt="Изображение вида из окна поезда"/>
+          <img class="photo-grid__item"
+            src="./images/__item2.jpg"
+            alt="Изображение гор с высоты"/>
+          <img class="photo-grid__item"
+            src="./images/__item3.jpg"
+            alt="Изображение собаки на стоге сена в лёгком тумане"/>
+          <img class="photo-grid__item"
+            src="./images/__item4.jpg"
+            alt="Изображение леса с высоты в тумане"/>
+          <img class="photo-grid__item"
+            src="./images/__item5.jpg"
+            alt="Изображение автомобиля стоящего на замерзшем озере"/>
+          <img class="photo-grid__item"
+            src="./images/__item6.jpg"
+            alt="Изображение берега моря и горы"/>
+          <img class="photo-grid__item"
+            src="./images/__item7.jpg"
+            alt="Вид гор"/>
+          <img class="photo-grid__item"
+            src="./images/__item8.jpg"
+            alt="Изображение знака пешеходного перехода"/>
+          <img class="photo-grid__item"
+            src="./images/__item9.jpg"
+            alt="Изображение гор и тумана"/>
+          <img class="photo-grid__item"
+            src="./images/__item10.jpg"
+            alt="Изображение гор и поля"/>
+          <img class="photo-grid__item"
+            src="./images/__item11.jpg"
+            alt="Изображение обрыва и моря"/>
+          <img class="photo-grid__item"
+            src="./images/__item12.jpg"
+            alt="Изображение гор в сильном тумане"/>
+        </section>
+
+        <section class="places" aria-label="Краткий обзор некоторых привлекательных туристических направлений России">
+          <article class="place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
@@ -145,8 +112,7 @@
             <img
               src="./images/place1.jpg"
               class="place__image"
-              alt="Изображение Куршской косы"
-            />
+              alt="Изображение Куршской косы"/>
             <div>
               <p class="place__paragraph">
                 Здесь, посреди лесов и&nbsp;песчаных дюн, вы&nbsp;сможете
@@ -165,23 +131,20 @@
                 прохладного моря.
               </p>
             </div>
-          </li>
+          </article>
 
-          <li class="place">
+          <article class="place">
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
-              <a
-                class="place__link"
+              <a class="place__link"
                 href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-                >National Geographic</a
-              >
+                >National Geographic</a>
             </div>
             <img
               src="./images/place2.jpg"
               class="place__image"
-              alt="Изображение Кольского полуострова"
-            />
+              alt="Изображение Кольского полуострова"/>
             <div>
               <p class="place__paragraph">
                 Почти весь полуостров находится за&nbsp;Полярным кругом.
@@ -199,23 +162,20 @@
                 с билетом в Мурманск.
               </p>
             </div>
-          </li>
+          </article>
 
-          <li class="place">
+          <article class="place">
             <h2 class="place__title">Алтай</h2>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
-              <a
-                class="place__link"
+              <a class="place__link"
                 href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
-                >Facebook</a
-              >
+                >Facebook</a>
             </div>
             <img
               src="./images/place3.jpg"
               class="place__image"
-              alt="Изображение Кольского полуострова"
-            />
+              alt="Изображение домика в лесу в Алтае"/>
             <div>
               <p class="place__paragraph">
                 Алтай&nbsp;&mdash; одно из&nbsp;красивейших мест в&nbsp;России.
@@ -234,20 +194,19 @@
                 края.
               </p>
             </div>
-          </li>
-          <li class="place">
+          </article>
+
+          <article class="place">
             <h2 class="place__title place__title_noWrap">Зимний Байкал</h2>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
               <a class="place__link" href="https://vk.com/baikalmile"
-                >https://vk.com/baikalmile</a
-              >
+                >https://vk.com/baikalmile</a>
             </div>
             <img
               src="./images/place4.jpg"
               class="place__image"
-              alt="Изображение Кольского полуострова"
-            />
+              alt="Изображение замерзшего Байкала"/>
             <div>
               <p class="place__paragraph">
                 Всем известен Байкал как крупнейшее озеро в&nbsp;мире. Многие
@@ -264,20 +223,19 @@
                 рекорд&nbsp;&mdash; 197.011&nbsp;км/ч.
               </p>
             </div>
-          </li>
-          <li class="place">
+          </article>
+
+          <article class="place">
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
               <a class="place__link" href="http://vodlozero.ru"
-                >http://vodlozero.ru/</a
-              >
+                >http://vodlozero.ru/</a>
             </div>
             <img
               src="./images/place5.jpg"
               class="place__image"
-              alt="Изображение Кольского полуострова"
-            />
+              alt="Изображение леса и озера в Карелии"/>
             <div>
               <p class="place__paragraph">
                 Сибирь заканчивается не&nbsp;на&nbsp;Урале,
@@ -293,19 +251,22 @@
                 Чтобы все знали, кто тут хозяин.
               </p>
             </div>
-          </li>
-        </ul>
+          </article>
+        </section>
 
-        <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+        <section class="cover">
+        <a class="cover__item" href="https://stampsy.com/na-elektrichkakh-do-baikala">
           <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__subtitle">
-            По мотивам учебной темы о Транссибе — путешествие от столицы до
+            По&nbsp;мотивам учебной темы о&nbsp;Транссибе &mdash; путешествие от столицы до
             Байкала на электричках.
           </p>
         </a>
+        </section>
       </main>
 
-      <nav class="footer">
+      <footer class="footer">
+        <nav>
         <ul class="footer__links">
           <li>
             <a href="https://yandex.ru/maps" class="footer__link">Карты</a>
@@ -317,18 +278,15 @@
             <a href="https://rasp.yandex.ru" class="footer__link">Расписание</a>
           </li>
           <li>
-            <a href="https://calendar.yandex.ru" class="footer__link"
-              >Календарь</a
-            >
+            <a href="https://calendar.yandex.ru" class="footer__link">Календарь</a>
           </li>
           <li>
-            <a href="https://travel.yandex.ru" class="footer__link"
-              >Путешествия</a
-            >
+            <a href="https://travel.yandex.ru" class="footer__link">Путешествия</a>
           </li>
         </ul>
+        </nav>
         <p class="footer__copyright">&copy; 2022. Цветкова Виолетта</p>
-      </nav>
+      </footer>
     </div>
   </body>
 </html>

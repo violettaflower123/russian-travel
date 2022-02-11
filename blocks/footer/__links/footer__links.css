@@ -5,6 +5,18 @@
   margin: 0;
 }
 
+@media screen and (max-width: 646px) {
+  .foter__links {
+    max-width: 640px;
+  }
+}
+
+@media screen and (max-width: 463px) {
+  .footer__links {
+    max-width: 450px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .footer__links {
     display: grid;

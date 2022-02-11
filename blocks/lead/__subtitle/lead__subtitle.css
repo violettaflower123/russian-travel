@@ -1,6 +1,6 @@
 .lead__subtitle {
   display: flex;
-  font-family: 'Inter-400';
+  font-family: 'Inter-400', 'Arial', sans-serif;
   font-size: 30px;
   line-height: 36px;
   font-weight: normal;

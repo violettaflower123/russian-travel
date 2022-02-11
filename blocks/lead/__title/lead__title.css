@@ -1,6 +1,6 @@
 .lead__title {
   display: flex;
-  font-family: 'Inter-900';
+  font-family: 'Inter-900', 'Arial', sans-serif;
   font-size: 96px;
   line-height: 100px;
   color: white;

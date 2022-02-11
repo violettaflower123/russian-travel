@@ -1,37 +1,17 @@
-.cover {
+.cover__item {
   display: flex;
+  position: relative;
   flex-direction: column;
   color: white;
-  margin-right: 48px;
-  margin-left: 48px;
-  margin-top: 92px;
   text-decoration: none;
-  align-items: center;
-  justify-content: center;
-  background-image: url(../../images/__background.jpg);
-  background-size: cover;
-  position: relative;
-}
-
-.cover:before {
-  content:'';
-  display: block;
-  position: absolute;
   width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: #2A2C2F;
-  opacity: 0.3;
-  transition: opacity 0.4s ease;
-}
-
-.cover:hover:before {
-  opacity: 0.8;
+  min-height: 740px;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 1280px) {
-  .cover {
+  .cover__item {
     min-height: 740px;
     margin-right: 48px;
     margin-left: 48px;
@@ -39,7 +19,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .cover {
+  .cover__item {
     max-width: 1024px;
     min-height: 640px;
     margin-left: 0;
@@ -47,30 +27,26 @@
   }
 }
 
-
 @media screen and (max-width: 768px) {
-  .cover {
+  .cover__item {
     margin-right: 0;
     margin-left: 0;
-    margin-top: 65px;
     max-width: 768px;
     min-height: 480px;
-    object-fit: cover;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .cover {
+  .cover__item {
     max-width: 425px;
     min-height: 300px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .cover {
+  .cover__item {
     max-width: 320px;
     min-height: 200px;
-    margin-top: 40px;
   }
 }
 

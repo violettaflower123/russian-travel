@@ -5,6 +5,7 @@
   margin: 0;
   margin-right: auto;
   margin-left: auto;
+  position: relative;
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,6 +23,12 @@
     margin-left: 0;
     margin-right: 0;
     padding-top: 2px;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .lead__box {
+    max-width: 668px;
   }
 }
 
@@ -43,6 +50,12 @@
 @media screen and (max-width: 391px) {
   .lead__box {
     max-width: 390px;
+  }
+}
+
+@media screen and (max-width: 324px) {
+  .lead__box {
+    max-width: 324px;
   }
 }
 

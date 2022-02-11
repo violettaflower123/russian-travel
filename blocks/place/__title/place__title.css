@@ -1,5 +1,5 @@
 .place__title {
-  font-family: 'Inter-900';
+  font-family: 'Inter-900', 'Arial', sans-serif;
   font-size: 72px;
   line-height: 76px;
   font-weight: normal;
@@ -13,11 +13,9 @@
     line-height: 46px;
     letter-spacing: 2px;
     padding-left: 0;
+    max-width: 340px;
   }
 
-  .place__title_noWrap {
-    letter-spacing: normal;
-  }
 }
 
 @media screen and (max-width: 320px) {

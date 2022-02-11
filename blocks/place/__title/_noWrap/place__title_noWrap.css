@@ -1,0 +1,6 @@
+/*я использую этот модификатор на расширении 768px, чтобы заголовок не переносился на новую строку*/
+@media screen and (max-width: 768px) {
+.place__title_noWrap {
+  letter-spacing: normal;
+}
+}
