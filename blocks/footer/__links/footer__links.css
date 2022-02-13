@@ -11,26 +11,16 @@
   }
 }
 
-@media screen and (max-width: 463px) {
-  .footer__links {
-    max-width: 450px;
-  }
-}
-
 @media screen and (max-width: 425px) {
   .footer__links {
     display: grid;
     grid-template-columns: 1fr;
     gap: 35px;
-    margin: 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer__links {
-    display: grid;
     grid-template-columns: 288px;
-    gap: 35px;
-    margin: 0;
   }
 }

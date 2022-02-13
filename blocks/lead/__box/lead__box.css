@@ -26,36 +26,9 @@
   }
 }
 
-@media screen and (max-width: 668px) {
-  .lead__box {
-    max-width: 668px;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .lead__box {
-    max-width: 640px;
-    max-height: 100%;
-  }
-}
-
 @media screen and (max-width: 426px) {
   .lead__box {
     max-width: 426px;
-    max-height: 100%;
-    margin: 0;
-  }
-}
-
-@media screen and (max-width: 391px) {
-  .lead__box {
-    max-width: 390px;
-  }
-}
-
-@media screen and (max-width: 324px) {
-  .lead__box {
-    max-width: 324px;
   }
 }
 
@@ -63,7 +36,6 @@
   .lead__box {
     max-width: 320px;
     max-height: 200px;
-    margin: 0;
     padding-top: 0;
   }
 }

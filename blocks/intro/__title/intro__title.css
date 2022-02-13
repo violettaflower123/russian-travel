@@ -1,6 +1,6 @@
 .intro__title {
   max-width: 690px;
-  font-family: 'Inter-900';
+  font-family: 'Inter-900', 'Arial', sans-serif;
   font-size: 54px;
   line-height: 58px;
   margin-top: 92px;
@@ -19,11 +19,10 @@
   }
 }
 
-@media screen and (max-width: 685px) {
+@media screen and (max-width: 425px) {
   .intro__title {
-    max-width: 661px;
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 40px;
+    line-height: 42px;
   }
 }
 

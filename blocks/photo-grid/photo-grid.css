@@ -17,18 +17,14 @@
 
 @media screen and (max-width: 1024px) {
   .photo-grid {
-    display: grid;
     max-width: 928px;
     grid-template-columns: repeat(auto-fill, 300px);
     gap: 14px;
-    margin-right: 48px;
-    margin-left: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .photo-grid {
-    display: grid;
     max-width: 720px;
     grid-template-columns: repeat(auto-fill, 352px);
     gap: 16px;
@@ -38,17 +34,14 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
   .photo-grid {
-    display: grid;
-    max-width: 380px;
     grid-template-columns: 1fr;
   }
 }
 
 @media screen and (max-width: 320px) {
   .photo-grid {
-    display: grid;
     max-width: 288px;
     grid-template-columns: repeat(auto-fill, 288px);
     gap: 12px;

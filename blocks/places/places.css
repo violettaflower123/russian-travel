@@ -26,26 +26,9 @@
 @media screen and (max-width: 768px) {
   .places {
     max-width: 720px;
-    margin-top: 90px;
+    margin-top: 89px;
     margin-right: 24px;
     margin-left: 24px;
-  }
-}
-
-@media screen and (max-width: 660px) {
-  .places {
-    max-width: 650px;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-}
-
-@media screen and (max-width: 452px) {
-  .places {
-    max-width: 452px;
-    margin-right: 5px;
-    margin-left: 5px;
-
   }
 }
 

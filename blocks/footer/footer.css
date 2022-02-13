@@ -19,7 +19,7 @@
 @media screen and (max-width: 768px) {
   .footer {
     max-width: 720px;
-    margin-top: 90px;
+    margin-top: 89px;
   }
 }
 
@@ -40,22 +40,9 @@
   }
 }
 
-
-@media screen and (max-width: 410px) {
-  .footer {
-    margin-top: 64px;
-    flex-direction: column;
-    margin-right: 0;
-    margin-left: 16px;
-  }
-}
-
-
 @media screen and (max-width: 320px) {
   .footer {
     max-width: 288px;
     margin-top: 66px;
-    margin-right: 0;
-    margin-left: 16px;
   }
 }
